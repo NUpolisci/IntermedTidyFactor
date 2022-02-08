@@ -144,7 +144,7 @@ We often need relatively simple summary statistics of our data, such as mean, me
 To get started with this, we first need a dataset to summarize. So far, we have used slightly non-sensical random data, so let's take this up a notch. Below is a dataset of four variables from the British Election Survey, which was conducted following the UK General Election of 2019. The data has been simplified to include only those who voted Labour, Tory or Liberal Democrats.
 
 ```{r, echo = TRUE}
-brits19_orig <- read.csv("brits19.csv",header = TRUE)
+brits19_orig <- read.csv("https://raw.githubusercontent.com/NUpolisci/IntermedTidyFactor/main/brits19.csv",header = TRUE)
 head(brits19_orig)
 ```
 
